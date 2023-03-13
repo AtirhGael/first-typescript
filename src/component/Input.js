@@ -9,7 +9,7 @@ interface Props{
 
 function Input({todo, setTodo,handleAdd}:Props) {
 
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null); //making the background change after input field
 
   return (
     <form className='input' 
